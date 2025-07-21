@@ -1,1 +1,1 @@
-
+Delete duplicate Elasticity Simulator
