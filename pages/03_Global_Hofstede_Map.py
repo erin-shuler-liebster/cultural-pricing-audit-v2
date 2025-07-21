@@ -1,4 +1,4 @@
-# pages/03_Global_Hofstede_Map.py
+# pages/08_Global_Hofstede_Map.py
 import streamlit as st
 import pandas as pd
 from global_map import generate_hofstede_map
