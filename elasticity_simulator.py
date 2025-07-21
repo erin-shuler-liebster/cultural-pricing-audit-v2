@@ -1,4 +1,4 @@
-# elasticity_simulator.py
+# elasticity_simulator_tool.py
 import numpy as np
 
 def simulate_elasticity(base_price, elasticity, culture_sensitivity=1.0):
