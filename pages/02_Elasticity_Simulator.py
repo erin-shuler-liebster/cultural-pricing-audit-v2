@@ -1,4 +1,4 @@
-# pages/02_Elasticity_Simulator.py
+# pages/11_Elasticity_Simulator.py
 import streamlit as st
 import matplotlib.pyplot as plt
 from elasticity_simulator import simulate_elasticity
