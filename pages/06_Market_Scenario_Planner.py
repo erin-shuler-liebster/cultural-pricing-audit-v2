@@ -22,7 +22,7 @@ if st.button("Run Fit Simulation"):
         for dim in profile:
             fit[dim] = "✅" if dim in detected_tags and profile[dim] > 0.5 else ("⚠️" if dim in detected_tags else "❌")
         results.append({"Country": country, **fit})
-    
+
     df = pd.DataFrame(results)
     st.dataframe(df)
     st.download_button("📥 Download Scenario CSV", df.to_csv(index=False), file_name="market_scenario.csv")

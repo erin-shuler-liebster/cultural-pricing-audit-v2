@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def analyze_cta_buttons(html):
     soup = BeautifulSoup(html, 'html.parser')
     buttons = soup.find_all('a') + soup.find_all('button')
-    
+
     ctas = []
     for btn in buttons:
         text = btn.get_text(strip=True).lower()
